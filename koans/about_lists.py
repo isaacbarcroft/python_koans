@@ -104,7 +104,6 @@ class AboutLists(Koan):
         popped_value = queue.pop(0)
         self.assertEqual(1, popped_value)
         self.assertEqual([2, 'last'], queue)
-
         # Note, popping from the left hand side of a list is
         # inefficient. Use collections.deque instead.
 
